@@ -97,6 +97,8 @@ osa = require 'osa'
 osa(promptForHandle, 'twitter', '@brandonhorst', responseHandler);
 ```
 
+Alternatively, promises can be used in place of passing a responseHandler. See `demo/demo-promise.js`.
+
 When we run it:
 
 ```bash
